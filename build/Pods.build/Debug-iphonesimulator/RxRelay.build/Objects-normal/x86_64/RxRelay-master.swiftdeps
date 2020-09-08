@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "b8f2a0352bd197db72346a2c928879a7"
+build_time: [1599382701, 588986000]
+inputs:
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1599270108, 506436914]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1599270108, 505613687]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/RxRelay/RxRelay/PublishRelay.swift": [1599270108, 505189399]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/RxRelay/RxRelay/Utils.swift": [1599270108, 506036225]

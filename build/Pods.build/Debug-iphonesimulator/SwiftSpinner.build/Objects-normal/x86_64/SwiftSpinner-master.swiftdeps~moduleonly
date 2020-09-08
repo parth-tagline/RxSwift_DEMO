@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "3b5641d5c95b1e4e46d59b60e62a72ba"
+build_time: [1599382686, 255531000]
+inputs:
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/SwiftSpinner/Sources/SwiftSpinner/SwiftSpinner.swift": [1599273223, 114817346]

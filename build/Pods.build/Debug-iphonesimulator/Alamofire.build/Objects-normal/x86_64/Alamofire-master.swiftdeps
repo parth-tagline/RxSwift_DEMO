@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "109cd402fccb79767bf3d02e55e0d3aa"
+build_time: [1599382687, 421961000]
+inputs:
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/AFError.swift": [1599273217, 464024948]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Alamofire.swift": [1599273217, 464734163]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1599273217, 463573768]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/MultipartFormData.swift": [1599273217, 463152138]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1599273217, 463309363]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Notifications.swift": [1599273217, 464397716]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/ParameterEncoding.swift": [1599273217, 463859496]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Request.swift": [1599273217, 464900344]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Response.swift": [1599273217, 464567450]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/ResponseSerialization.swift": [1599273217, 465263335]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Result.swift": [1599273217, 463709181]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1599273217, 465417004]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/SessionDelegate.swift": [1599273217, 465592763]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/SessionManager.swift": [1599273217, 465085249]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/TaskDelegate.swift": [1599273217, 462963327]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Timeline.swift": [1599273217, 463438410]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/Pods/Alamofire/Source/Validation.swift": [1599273217, 464240590]

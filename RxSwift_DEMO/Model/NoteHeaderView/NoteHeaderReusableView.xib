@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NoteHeaderReusableView" id="U6b-Vx-4bR" customClass="NoteHeaderReusableView" customModule="RxSwift_DEMO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="217"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsY-Q5-4SX">
+                    <rect key="frame" x="0.0" y="0.0" width="429" height="217"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58z-Zo-Hh7">
+                            <rect key="frame" x="20" y="100.5" width="389" height="16"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xrj-au-s7N">
+                                    <rect key="frame" x="0.0" y="0.5" width="16" height="15.5"/>
+                                    <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="xrj-au-s7N" secondAttribute="height" multiplier="1:1" id="eWw-sS-m1I"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT2-Kv-igm">
+                                    <rect key="frame" x="24" y="0.0" width="42" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="xrj-au-s7N" secondAttribute="bottom" id="7gZ-KE-sFJ"/>
+                                <constraint firstItem="LT2-Kv-igm" firstAttribute="leading" secondItem="xrj-au-s7N" secondAttribute="trailing" constant="8" id="DiF-q2-5dd"/>
+                                <constraint firstAttribute="bottom" secondItem="LT2-Kv-igm" secondAttribute="bottom" id="HlS-0l-Qgd"/>
+                                <constraint firstAttribute="height" constant="16" id="dZc-ma-3rI"/>
+                                <constraint firstItem="xrj-au-s7N" firstAttribute="leading" secondItem="58z-Zo-Hh7" secondAttribute="leading" id="g9h-nJ-kOp"/>
+                                <constraint firstItem="xrj-au-s7N" firstAttribute="top" secondItem="58z-Zo-Hh7" secondAttribute="top" id="xFE-jC-bXV"/>
+                                <constraint firstItem="LT2-Kv-igm" firstAttribute="top" secondItem="58z-Zo-Hh7" secondAttribute="top" id="xm9-tJ-fQo"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="58z-Zo-Hh7" secondAttribute="trailing" constant="20" id="jjR-Ut-fLI"/>
+                        <constraint firstItem="58z-Zo-Hh7" firstAttribute="leading" secondItem="dsY-Q5-4SX" secondAttribute="leading" constant="20" id="sgg-qi-lY8"/>
+                        <constraint firstItem="58z-Zo-Hh7" firstAttribute="centerY" secondItem="dsY-Q5-4SX" secondAttribute="centerY" id="ttl-Ju-W7p"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dsY-Q5-4SX" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="4bI-4o-tdd"/>
+                <constraint firstItem="dsY-Q5-4SX" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="Ygv-mz-4Eg"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="dsY-Q5-4SX" secondAttribute="trailing" id="bem-2k-5vB"/>
+                <constraint firstAttribute="bottom" secondItem="dsY-Q5-4SX" secondAttribute="bottom" id="ivR-M1-3as"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="cellHeader_daylbl" destination="LT2-Kv-igm" id="Ccx-3Y-kLy"/>
+                <outlet property="cellHeader_mainview" destination="dsY-Q5-4SX" id="xAw-5H-W1X"/>
+                <outlet property="cellHeader_subview" destination="58z-Zo-Hh7" id="7Dv-ub-5Hc"/>
+                <outlet property="cellHeader_timeimg" destination="xrj-au-s7N" id="ncr-Zb-qlh"/>
+            </connections>
+            <point key="canvasLocation" x="210.86956521739131" y="189.84375"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="clock" catalog="system" width="64" height="62"/>
+    </resources>
+</document>

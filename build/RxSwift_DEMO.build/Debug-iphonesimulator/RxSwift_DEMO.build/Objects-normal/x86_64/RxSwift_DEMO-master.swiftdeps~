@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "5e6b1f73d65bbaac5ad0e386b8dfaf88"
+build_time: [1599383250, 441036000]
+inputs:
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Networks/ApiManager.swift": [1599276280, 912175259]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Helpers/TimeHelper.swift": [1599382276, 724250436]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Controllers/ViewController.swift": [1599383249, 165614028]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Data/NotesData.swift": [1599361766, 227177464]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Model/NoteCollectionViewCell.swift": [1599382673, 442405561]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Networks/DBManager.swift": [1599383022, 755782407]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Helpers/Constants.swift": [1599306221, 959389035]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/AppDelegate/AppDelegate.swift": [1599269856, 678354664]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Model/NoteHeaderView/NoteHeaderReusableView.swift": [1599272532, 385108216]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/AppDelegate/SceneDelegate.swift": [1599284325, 875290571]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Controllers/DetailViewController.swift": [1599379165, 427410033]
+  "/Users/tagline13/Documents/Projects/IOS/Demo/RxSwift_DEMO/RxSwift_DEMO/Helpers/UIHelper.swift": [1599380218, 514019270]
